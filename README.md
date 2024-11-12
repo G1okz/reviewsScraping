@@ -4,10 +4,13 @@ Este proyecto de web scraping utiliza `requests` y `BeautifulSoup` para extraer 
 
 ## Descripción
 
-El script accede a una URL específica de una noticia en Xataka y extrae información clave:
-- **Título del artículo**
-- **Contenido del artículo** (en formato texto plano, eliminando ciertos elementos de estilo)
-- **Lista de categorías de navegación** (obtenidas de elementos `<li>` específicos)
+El script accede a una URL específica de una web y extrae información clave:
+- **Título de las peliculas**
+- **Enlace de las peliculas**
+- **Id de las peliculas**
+- **Año de las peliculas**
+- **Enlace de la portada de la pelicula**
+- **Contenido del comentario** (en formato texto plano, eliminando ciertos elementos de estilo)
 
 > **Nota**: Este programa es solo para fines educativos. Asegúrate de cumplir con las políticas de uso y scraping del sitio web.
 
@@ -31,5 +34,5 @@ pip install requests beautifulsoup4
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/G1okz/webScraping.git
+git clone https://github.com/G1okz/reviewsScraping
 
